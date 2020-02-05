@@ -1,0 +1,44 @@
+html {
+    font: 16px sans-serif;
+    background: #2e2e2e;
+    color: #dddddd;
+}
+
+a {
+    color: lightblue;
+}
+
+img, video {
+    width: 100%;
+}
+
+.icon::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5em;
+    background-image: url(../img/unknown.gif);
+    background-size: 16px;
+}
+
+.folder::before {
+    background-image: url(../img/folder.gif);
+}
+
+.video::before {
+    background-image: url(../img/video.gif);
+}
+
+.img::before {
+    background-image: url(../img/img.gif);
+}
+
+.text::before {
+    background-image: url(../img/text.gif);
+}
+
+.back::before {
+    background-image: url(../img/back.gif);
+}
